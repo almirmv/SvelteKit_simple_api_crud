@@ -1,0 +1,13 @@
+# Criar novo projeto SvelteKit com nome "app"
+npx sv create app
+
+## responder:
+tipo projeto: sveltekit minimal
+typescript checking: no (para simplicidade do exemplo)
+selecionar: prettier e eslint
+package manager: npm
+
+## para rodar o projeto modo dev
+cd app
+npm run dev
+npm run dev -- --open

@@ -11,3 +11,9 @@ package manager: npm
 cd app
 npm run dev
 npm run dev -- --open
+
+# para instalar uma "fake rest API":
+npm i json-server
+## criar arquivo db.json no mesmo dir que "packaje.json"
+## para iniciar a rest API:
+npm run server-json
